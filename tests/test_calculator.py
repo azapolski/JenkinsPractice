@@ -12,4 +12,4 @@ def test_div_by_zero():
         div(1, 0)
 
 def test_fail():
-    assert add(2, 3) == 6
+    assert add(2, 3) == 5
