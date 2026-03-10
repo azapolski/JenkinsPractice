@@ -10,3 +10,6 @@ def test_div_normal():
 def test_div_by_zero():
     with pytest.raises(ZeroDivisionError):
         div(1, 0)
+
+def test_fail():
+    assert add(2, 3) == 6
